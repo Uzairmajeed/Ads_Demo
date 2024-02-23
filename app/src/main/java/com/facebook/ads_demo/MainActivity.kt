@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 mInterstitialAd = interstitialAd
             }
         })
-
+       //Button to start another ad..
         binding.loadads.setOnClickListener {
             if (mInterstitialAd != null) {
                 mInterstitialAd?.show(this)
